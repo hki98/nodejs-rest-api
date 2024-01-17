@@ -1,5 +1,4 @@
-# REST API
-## NodeJS, TypeScript & ExpressJS + Authentication
+# NodeJS REST API, TypeScript & ExpressJS + Authentication
 
 This is a REST API with authentication built using:
 
