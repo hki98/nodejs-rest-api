@@ -12,6 +12,8 @@ This is a REST API with authentication built using:
 ### Usage:
 ```
 git clone https://github.com/hki98/nodejs-rest-api.git
+cd nodejs-rest-api
+npm start
 ```
 
 ### Endpoints:
