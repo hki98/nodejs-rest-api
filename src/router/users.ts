@@ -7,8 +7,8 @@
 */
 
 import express from 'express';
-// Import getAllUsers & deleteUser from users controller
-import { deleteUser, getAllUsers } from '../controllers/users';
+// Import getAllUsers, deleteUser & updateUser from users controller
+import { deleteUser, getAllUsers, updateUser } from '../controllers/users';
 // Import isAuthenticated from authenctication middleware
 import { isAuthenticated, isOwner } from '../middlewares';
 
@@ -18,4 +18,6 @@ export default (router: express.Router) => {
     router.get('/users', isAuthenticated, getAllUsers);
     // Delete a user route
     router.delete('/users/:id', isAuthenticated, isOwner, deleteUser);
+    // Update a user route
+    router.patch('/users/:id', isAuthenticated, isOwner, updateUser);
 };
