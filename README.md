@@ -9,7 +9,7 @@ This is a REST API with authentication built using:
 ### NOTE: This REST API has been built for testing and educational purposes only. It has a limited functionality.
 
 ### Usage:
-```
+```bash
 git clone https://github.com/hki98/nodejs-rest-api.git
 cd nodejs-rest-api
 npm start
