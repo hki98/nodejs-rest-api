@@ -7,9 +7,13 @@
 */
 
 import express from 'express';
-
+// Import getAllUsers from users controller
 import { getAllUsers } from '../controllers/users';
+// Import isAuthenticated from authenctication middleware
 import { isAuthenticated } from '../middlewares';
+
+// Define the users routes
 export default (router: express.Router) => {
+    // Get All Users route
     router.get('/users', isAuthenticated, getAllUsers);
 };

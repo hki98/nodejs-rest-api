@@ -7,10 +7,13 @@
 */
 
 import express from 'express';
-
+// Import register & login controllers
 import { register, login } from '../controllers/authentication';
 
+// Define the authentication routes
 export default (router: express.Router) => {
+    // Registeration Route
     router.post('/auth/register', register);
+    // Login Route
     router.post('/auth/login', login);
 };

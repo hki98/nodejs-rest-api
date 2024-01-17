@@ -8,11 +8,15 @@
 
 import express from 'express';
 
+// Import authentication router
 import authentication from './authentication';
+// Import users router
 import users from './users';
 
+// Initiate main app router
 const router = express.Router();
 
+// Define main app routes
 export default (): express.Router => {
     authentication(router);
     users(router)
