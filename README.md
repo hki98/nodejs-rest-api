@@ -7,6 +7,13 @@ This is a REST API with authentication built using:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ExpressJS](https://expressjs.com/)
 
+### PS: This REST API has been built for testing and educational purposes only. It has a limited functionality.
+
+### Usage:
+```
+git clone https://github.com/hki98/nodejs-rest-api.git
+```
+
 ### Endpoints:
 - `AUTHENTICATION:`
   - `[POST] /auth/register` -> Registration.
@@ -37,4 +44,16 @@ This is a REST API with authentication built using:
     isAuthenticated & isOwner Middlewares applied (middlewares/index.ts). Logged in user can update his username only.
     ```
  
-### PS: This REST API has been built for testing and educational purposes. It has a limited functionality.
+### Packages Used
+- ``` express ```
+- ``` typescript ```
+- ``` http ```
+- ``` body-parser ```
+- ``` cookie-parser ```
+- ``` compression ```
+- ``` cors ```
+- ``` mongoose ```
+- ``` crypto ```
+- ``` lodash ```
+- ``` nodemon ```
+- ``` ts-node ```
