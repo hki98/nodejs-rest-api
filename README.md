@@ -29,4 +29,12 @@ This is a REST API with authentication built using:
 - `Users:`
   - `[GET] /users` -> Get All Users.
   - `[DELETE] /users/:id` -> Delete User (Logged in user).
+    ```
+    isAuthenticated & isOwner Middlewares applied (middlewares/index.ts). Logged in user can delete himself only.
+    ```
   - `[PATCH] /users/:id` -> Update User (Logged in user & only usename for now).
+    ```
+    isAuthenticated & isOwner Middlewares applied (middlewares/index.ts). Logged in user can update his username only.
+    ```
+ 
+###PS: This REST API has been built for testing and educational purposes. It has a limited functionality.
