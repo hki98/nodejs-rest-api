@@ -1,7 +1,7 @@
 # REST API
 ## NodeJS, TypeScript & ExpressJS + Authentication
 
-This is a simple REST API with authentication using:
+This is a REST API with authentication built using:
 
 - [NodeJS](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
