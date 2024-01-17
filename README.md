@@ -7,7 +7,7 @@ This is a REST API with authentication built using:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ExpressJS](https://expressjs.com/)
 
-### PS: This REST API has been built for testing and educational purposes only. It has a limited functionality.
+### NOTE: This REST API has been built for testing and educational purposes only. It has a limited functionality.
 
 ### Usage:
 ```
