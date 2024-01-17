@@ -12,7 +12,7 @@ import { get, merge } from 'lodash';
 // Import getUserBySessionToken from users.ts DB file
 import { getUserBySessionToken } from '../db/users';
 
-// isOwner middlware checks if the user has the rights to make a delete and for his own account only
+// isOwner middleware, checks if the user has the rights to make a delete and for his own account only
 export const isOwner = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
     // Try to get current user
     try {
