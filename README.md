@@ -37,6 +37,9 @@ npm start
     ```
 - `Users:`
   - `[GET] /users` -> Get All Users.
+    ```
+    isAuthenticated Middlewares applied. Logged in user can list and view all users only.
+    ```
   - `[DELETE] /users/:id` -> Delete User (Logged in user).
     ```
     isAuthenticated & isOwner Middlewares applied. Logged in user can delete himself only.
