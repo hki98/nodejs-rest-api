@@ -15,9 +15,9 @@ cd nodejs-rest-api
 npm start
 
 You can modify some code (Optional):
-- The ``` MONGO_URL ``` const in (src/index.ts).
-- The ``` SECRET ``` const in (src/helpers/index.ts).
-- The ``` COOKIE ``` name in (src/controllers/authentication.ts).
+- The [ MONGO_URL ] const in (src/index.ts).
+- The [ SECRET ] const in (src/helpers/index.ts).
+- The [ COOKIE ] name in (src/controllers/authentication.ts).
 ```
 
 ### Endpoints:
