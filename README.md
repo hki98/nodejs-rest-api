@@ -9,7 +9,7 @@ This is a simple REST API with authentication using:
 
 ### Endpoints:
 - `AUTHENTICATION:`
-  - `[POST] Registration:` /auth/register
-  - `[POST] Login:` /auth/login
+  - `[POST] /auth/register` -> Registration
+  - `[POST] /auth/login` -> Login
 - `Users:`
-  - `[GET] Get All Users:` /users
+  - `[GET] /users` -> Get All Users
