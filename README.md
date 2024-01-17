@@ -13,3 +13,4 @@ This is a REST API with authentication built using:
   - `[POST] /auth/login` -> Login
 - `Users:`
   - `[GET] /users` -> Get All Users
+  - `[DELETE] /users/:id` -> Delete User
