@@ -69,4 +69,4 @@ You can modify some code (Optional):
 - ``` ts-node ```
 
 ---
-I'm open to work: [Haian K. Ibrahim](https://linkedin.com/in/haian-k-ibrahim)
+I'm open to work, let's connect: [Haian K. Ibrahim](https://linkedin.com/in/haian-k-ibrahim) | [contact@haian.me](mailto:contact@haian.me)
