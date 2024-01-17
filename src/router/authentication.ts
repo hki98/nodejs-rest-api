@@ -12,7 +12,7 @@ import { register, login } from '../controllers/authentication';
 
 // Define the authentication routes
 export default (router: express.Router) => {
-    // Registeration Route
+    // Registration Route
     router.post('/auth/register', register);
     // Login Route
     router.post('/auth/login', login);
