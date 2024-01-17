@@ -41,16 +41,16 @@ You can modify some code (Optional):
     ```
 - `Users:`
   - `[GET] /users` -> Get All Users.
-    ```
-    isAuthenticated Middlewares applied. Logged in user can list and view all users only.
+    ```typescript
+    isAuthenticated() Middlewares applied. Logged in user can list and view all users only.
     ```
   - `[DELETE] /users/:id` -> Delete User (Logged in user).
-    ```
-    isAuthenticated & isOwner Middlewares applied. Logged in user can delete himself only.
+    ```typescript
+    isAuthenticated() & isOwner() Middlewares applied. Logged in user can delete himself only.
     ```
   - `[PATCH] /users/:id` -> Update User (Logged in user & only usename for now).
-    ```
-    isAuthenticated & isOwner Middlewares applied. Logged in user can update his username only.
+    ```typescript
+    isAuthenticated() & isOwner() Middlewares applied. Logged in user can update his username only.
     ```
     [Check: isAuthenticated & isOwner](src/middlewares/index.ts)
     
