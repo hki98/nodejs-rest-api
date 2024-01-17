@@ -23,7 +23,7 @@ You can modify some code (Optional):
 ### Endpoints:
 - `AUTHENTICATION:`
   - `[POST] /auth/register` -> Registration.
-    ```
+    ```json
     Example Request (JSON):
     {
       "username": "hki98",
@@ -32,7 +32,7 @@ You can modify some code (Optional):
     }
     ```
   - `[POST] /auth/login` -> Login.
-    ```
+    ```json
     Example Request (JSON):
     {
       "email": "name@example.com",
