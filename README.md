@@ -7,3 +7,9 @@ This is a simple REST API with authentication using:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ExpressJS](https://expressjs.com/)
 
+### Endpoints:
+- `AUTHENTICATION:`
+  - `[POST] Registration:` /auth/register
+  - `[POST] Login:` /auth/login
+- `Users:`
+  - `[GET] Get All Users:` /users
