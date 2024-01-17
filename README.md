@@ -41,11 +41,13 @@ npm start
     ```
     [isAuthenticated & isOwner](src/middlewares/index.ts) Middlewares applied. Logged in user can delete himself only.
     ```
+    [isAuthenticated & isOwner](src/middlewares/index.ts)
   - `[PATCH] /users/:id` -> Update User (Logged in user & only usename for now).
     ```
     [isAuthenticated & isOwner]<src/middlewares/index.ts> Middlewares applied. Logged in user can update his username only.
     ```
- 
+    [isAuthenticated & isOwner](src/middlewares/index.ts)
+    
 ### Packages Used
 - ``` express ```
 - ``` typescript ```
