@@ -40,7 +40,7 @@ server.listen(3000, () => {
 });
 
 // MongoDB Connection URL
-const MONGO_URL = "mongodb+srv://haian:haian@cluster0.ifp0f9i.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URL = "";
 
 // Use Promise
 mongoose.Promise = Promise;
